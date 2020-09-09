@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Network Access Form</title>
+</head>
+<body style="background-color: darkgrey; margin: 0; margin-top:20px;">
+<style>
+@font-face {
+    font-family: "Ubuntu";
+    src:url("Ubuntu/Ubuntu-Regular.ttf");
+}	
+
+</style>
+<center>
+<img src="logo.png" width="250" height="165">
+<h2 style="font-family:Ubuntu">Network Access Form</h2>
+<h4 style="font-family:Ubuntu; opacity: .5;">In order for the form to work properly, please make sure you are connected to All Students.</h4>
+<br>
+<h3 style="font-family:Ubuntu">Just enter your full name and current grade below, and your device will be processed for network access as soon as possible.</h3>
+<br>
+<form action="thanks.html">
+  <label for="name" style="font-family:Ubuntu; font-size:16px;">Full name:</label><br><br>
+  <input style="padding:10px; font-size:16px; text-align: center; border-radius: 4px; font-family: Ubuntu;" type="text" id="name" name="name" value=""><br><br>
+  <label for="grade" style="font-family:Ubuntu; font-size:16px;">Grade:</label>
+  <select id="grade" name="grade" style="padding:3px; border-radius: 4px; font-family:Ubuntu;">
+    <option value="6" style="font-family:Ubuntu">6th</option>
+    <option value="7" style="font-family:Ubuntu">7th</option>
+    <option value="8" style="font-family:Ubuntu">8th</option>
+    <option value="9" style="font-family:Ubuntu">9th</option>
+    <option value="10" style="font-family:Ubuntu">10th</option>
+    <option value="11" style="font-family:Ubuntu">11th</option>
+    <option value="12" style="font-family:Ubuntu">12th</option>
+  </select><br><br>
+  <input type="submit" value="Done" style="padding: 7px; border-radius: 4px; font-family:Ubuntu;">
+</form> 
+
+<br><br><br>
+</center>
+</body>
+</html>
